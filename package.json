@@ -1,6 +1,6 @@
 {
   "name": "connc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Connect Business Cycle Class",
   "main": "index.js",
   "scripts": {
