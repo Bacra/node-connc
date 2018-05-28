@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
+    "ckit": "^0.1.0",
     "content-disposition": "^0.5.2",
     "debug": "^3.1.0",
     "lodash": "^4.17.10"
