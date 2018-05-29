@@ -1,9 +1,13 @@
+var expect = require('expect.js');
 var errorUtils = require('../lib/error');
 
 describe('#err', function()
 {
-	it('#throw', function()
+	it('#new', function()
 	{
-		console.log(errorUtils.error().stack);
+		var err = errorUtils.error();
+		expect(err.message).to.be('connc');
+		// 第一行调用栈是当前文件
+		expect(err.stack.split(/\n/)[1].trim()).to.contain(__filename);
 	});
 });
