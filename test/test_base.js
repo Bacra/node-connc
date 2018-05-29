@@ -12,5 +12,7 @@ describe('#base', function()
 				isCheckSession: false,
 			};
 		});
+
+		return Processor.connect();
 	});
 });
