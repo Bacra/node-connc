@@ -13,6 +13,6 @@ describe('#base', function()
 			};
 		});
 
-		return Processor.connect();
+		return new Processor().connect();
 	});
 });

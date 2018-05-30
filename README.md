@@ -20,7 +20,7 @@ npm install connc --save
 
 ```
 var connc = require('connc');
-var processor = connc(
+var Processor = connc(
     {
         requestAllData: function()
         {
@@ -28,7 +28,7 @@ var processor = connc(
         }
     });
 
-processor.connect(req)
+new Processor().connect(req)
     .then(function(data)
     {
         res.send(data.body);
