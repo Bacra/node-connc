@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cross-env DEBUG=connc* mocha test/test_*.js",
-    "test-cov": "istanbul cover ./node_modules/.bin/_mocha -- test/test_* --reporter dot",
-    "test-travis": "istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- test/test_* --reporter dot"
+    "test-cov": "istanbul cover _mocha -- test/test_* --reporter dot",
+    "test-travis": "istanbul cover _mocha --report lcovonly -- test/test_* --reporter dot"
   },
   "repository": {
     "type": "git",
