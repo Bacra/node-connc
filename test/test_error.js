@@ -1,3 +1,5 @@
+'use strict';
+
 var expect = require('expect.js');
 var errorUtils = require('../lib/error');
 

@@ -1,3 +1,5 @@
+'use strict';
+
 var base = require('./lib/base');
 var example = require('./lib/example');
 var enter = require('./lib/enter');
