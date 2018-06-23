@@ -2,8 +2,8 @@
 
 var base = require('./lib/base');
 var example = require('./lib/example');
-var enter = require('./lib/enter');
-var errorUtils = require('./lib/error');
+var enter = require('./lib/func/enter');
+var errorUtils = require('./lib/func/error');
 
 exports = module.exports = example.extend.bind(example);
 exports.Base = base.Base;
