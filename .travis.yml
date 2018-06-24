@@ -9,7 +9,7 @@ node_js:
   - stable
 
 script:
-  # - npm run-script test-eslint
+  # - npm run-script lint
   - npm run-script test-travis
 
 after_script:

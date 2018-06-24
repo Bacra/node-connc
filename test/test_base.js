@@ -3,11 +3,11 @@
 var expect = require('expect.js');
 var connc = require('../');
 
-describe('#base', function()
+describe('#connc', function()
 {
 	it('#base', function()
 	{
-		var Processor = connc(function(parent)
+		var Processor = connc(function()
 		{
 			return {
 				isCheckPromise: false,

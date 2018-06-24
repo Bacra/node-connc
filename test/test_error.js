@@ -3,7 +3,7 @@
 var expect = require('expect.js');
 var errorUtils = require('../lib/func/error');
 
-describe('#err', function()
+describe('#error utils', function()
 {
 	it('#new', function()
 	{

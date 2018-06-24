@@ -4,9 +4,9 @@
   "description": "Connect Business Cycle Class",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "cross-env DEBUG=connc* mocha test/test_*.js",
     "test-cov": "istanbul cover _mocha -- test/test_* --reporter dot",
-    "test-eslint": "eslint .",
     "test-travis": "istanbul cover _mocha --report lcovonly -- test/test_* --reporter dot"
   },
   "repository": {
@@ -30,6 +30,7 @@
   "devDependencies": {
     "cross-env": "^2.0.0",
     "eslint": "^5.0.0",
+    "eslint-config-brcjs": "^0.1.0",
     "expect.js": "^0.3.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.5.3"
