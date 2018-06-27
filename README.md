@@ -1,4 +1,4 @@
-connc
+CONNC
 ==================
 
 
@@ -12,13 +12,14 @@ connc
 Connect Business Cycle Class
 
 # Install
+
 ```
 npm install connc --save
 ```
 
 # Useage
 
-```
+```javascript
 var connc = require('connc');
 var Processor = connc(
     {
