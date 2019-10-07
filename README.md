@@ -17,7 +17,7 @@ Connect Business Cycle Class
 npm install connc --save
 ```
 
-# Useage
+# Usage
 
 ```javascript
 var connc = require('connc');
@@ -37,11 +37,11 @@ new Processor().connect(req)
 ```
 
 
-[npm-image]: http://img.shields.io/npm/v/connc.svg
-[downloads-image]: http://img.shields.io/npm/dm/connc.svg
+[npm-image]: https://img.shields.io/npm/v/connc.svg
+[downloads-image]: https://img.shields.io/npm/dm/connc.svg
 [npm-url]: https://www.npmjs.org/package/connc
-[travis-image]: http://img.shields.io/travis/Bacra/node-connc/master.svg?label=linux
+[travis-image]: https://img.shields.io/travis/Bacra/node-connc/master.svg?label=linux
 [travis-url]: https://travis-ci.org/Bacra/node-connc
 [coveralls-image]: https://img.shields.io/coveralls/Bacra/node-connc.svg
 [coveralls-url]: https://coveralls.io/github/Bacra/node-connc
-[license-image]: http://img.shields.io/npm/l/connc.svg
+[license-image]: https://img.shields.io/npm/l/connc.svg
